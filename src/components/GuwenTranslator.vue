@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-layout row wrap>
-      <v-flex xs6 lg2>
+      <v-flex xs12 lg4>
         <v-switch
             v-model="isNewToOld"
             :label="isNewToOldSwitch"
